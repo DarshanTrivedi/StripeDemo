@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private int cardExpYear;
     private EditText editCardNumber, editEpiryDate, editRefDesc, editEmail, editCvcNumber;
     String userDescription, userEmail;
-    String publishableKey = "pk_test_vtCsCOaKtOgyEfwjWaxTBy2k";
+    String publishableKey = "YOUR_TEST_CLIENT_PLISHABLE_KEY";
     Button btnChargeCard;
     Spinner spinnerCurrency;
     final String[] choices = {"USD", "INR"};
@@ -247,7 +247,7 @@ public class MainActivity extends AppCompatActivity {
                 chargeParams.put("receipt_email", userEmail);
                 chargeParams.put("application_fee", 100);
                 RequestOptions requestOptions;
-                requestOptions = RequestOptions.builder().setStripeAccount("acct_18fSBSH7WJ0jBqkP").setApiKey("sk_test_5ScO0y895ylFb0CHIYYNZDrL").build();
+                requestOptions = RequestOptions.builder().setStripeAccount("GENERATED_STRIPE_USER_ID").setApiKey("STRIPE_PUBLISHABLE_KEY").build();
                 try {
                     Charge.create(chargeParams, requestOptions);
                     runOnUiThread(new Runnable() {

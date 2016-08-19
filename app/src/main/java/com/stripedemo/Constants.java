@@ -12,7 +12,7 @@ import java.util.Map;
 public class Constants
 {
 
-    public static String CLIENT_KEY="ca_8zDubk4StlcXP6rehCHwjNEGGWNgQWAN";
+    public static String CLIENT_KEY="YOUR_CLIENT_KEY";
 
     public static JSONObject getJsonObjectFromMap(Map params) throws JSONException {
 
