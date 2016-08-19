@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StripeDemo</string>
+    <string name="text_charge_card_title">Change Card</string>
+    <string name="edit_amount_hint">edit amount</string>
+    <string name="edit_cardnumber_hint">card number</string>
+    <string name="btn_charge_card">Charge Card</string>
+    <string name="edit_email_hint">Email</string>
+    <string name="edit_ref_desc_hint">reference</string>
+    <string name="edit_cvc_hint">CVC</string>
+    <string name="text_char_set_numeric">1,2,3,4,5,6,7,8,9,0</string>
+    <string name="edit_expirydate_hint">Expiry date</string>
+    <string name="text_char_set_exp_date">0,1,2,3,4,5,6,7,8,9,/</string>
+</resources>
